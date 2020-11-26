@@ -82,7 +82,8 @@ text-dark{color:#1a1a1a}
     position: relative;
     overflow: hidden;
     margin: 10px 0;
-    border-radius: 2px;
+    border-radius: 2px; 
+    justify-content:center;
 }
 
 /* Con el siguiente codigo realizamos un efecto en las imagenes de agrandamiento al pasar el raton*/
@@ -99,9 +100,10 @@ text-dark{color:#1a1a1a}
 }
 
 .portfolio-container img{
-    width: 602px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
+
 .portfolio-details{
     position: absolute;
     bottom: 25px;
@@ -113,23 +115,44 @@ text-dark{color:#1a1a1a}
     margin-bottom: 0px;
 }
 
-.portfolio-details a h2, portfolio-details p{
+.portfolio-details a h2, .portfolio-details p{
     color: #ffffff;
 }
+
+.member-container{
+    position: relative;
+    margin: 10px 0;
+}
+
+.member-details{
+    position: absolute;
+    color: #ffffff;
+    bottom: 0px;
+    left: 20px;
+}
+
 
 
 @media (max-width: 575.98px) {
     h1{font-size: 40px; line-height: normal;}
 }
 
-/*
-@media (min-width: 576px) and (max-width: 767.98px) { . .. }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
 
 
-@media (min-width: 768px) and (max-width: 991.98px) { ... }
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
 
 
-@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
 
 
-@media (min-width: 1200px) { ... }
+@media (min-width: 1200px) {
+    
+}
