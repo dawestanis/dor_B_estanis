@@ -2,7 +2,7 @@ body{
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1{ margin-top: 15px; font-size: 66px; font-weight: 600; line-height: 80px;}
+h1{ margin-top: 15px; font-size: 90px; font-weight: 600; line-height: 80px;}
 h2{font-size: 48px; margin-bottom: 30px;}
 h5{margin-bottom: 0px;}
 
@@ -64,15 +64,16 @@ text-dark{color:#1a1a1a}
 .navbar-toggler{font-size: 40px;}
 .navbar-toggler:focus{outline: none;} 
 
-#hero{
-    background-image: url('../images/fotografoHeader.jpg');
+#cabeceraBlog{
+    background-image: url('../images/cabeceraBlog.jpg');
     background-size: cover;
     padding-top: 90px;
     min-height: 700px;
     color: #ffffff;
+    height: 1000px;
 }
 
-#hero p{
+#cabeceraBlog p{
     color: #ffffff;
 }
 
@@ -80,6 +81,11 @@ text-dark{color:#1a1a1a}
     max-width: 800px;
     margin: 0 auto 60px auto;
     text-align: center;
+}
+
+.cabeceraBlog-text {
+    text-align: right;
+    margin-right: 200px;
 }
 
 .portfolio-container{
@@ -108,13 +114,22 @@ text-dark{color:#1a1a1a}
     height: auto;
 }
 
+.article-text{
+    text-align: justify;
+}
+
+.article-text p{
+    color:#1a1a1a;
+}
+
+/*
 .portfolio-details{
     position: absolute;
     bottom: 25px;
     left: 25px;
     z-index: 9000; 
 }
-
+*/
 .portfolio-details h2{
     margin-bottom: 0px;
 }
