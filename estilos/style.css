@@ -154,6 +154,7 @@ ul {list-style:none;}
 
 @media (max-width: 575.98px) {
     h1{font-size: 40px; line-height: normal;}
+    .portfolio-details h2{font-size: 32px;}
 }
 
 
@@ -163,7 +164,7 @@ ul {list-style:none;}
 
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-
+    .portfolio-details h2{font-size: 30px;}
 }
 
 
