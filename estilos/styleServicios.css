@@ -222,6 +222,7 @@ text-dark {
     margin: 0 8px;
 }
 
+
 .carousel-container{
     max-width: 800px;
     margin: 0 auto;
@@ -280,7 +281,27 @@ text-dark {
 }
 
 
+/* Estilo de los testimonios */
+.testimonial-user{
+    max-width: 240px;
+    margin: 0 auto;
+    text-align: left;
+}
 
+.testimonial-user h6{
+    margin-bottom: 0px;
+}
+
+
+.testimonial-user span{
+    font-size: 12px;
+}
+
+.testimonial-user img{
+    border-radius: 50%;
+    max-width: 50px;
+    text-align: center;
+}
 
 
 
@@ -288,6 +309,9 @@ text-dark {
     h1 {
         font-size: 40px;
         line-height: normal;
+    }
+    .carousel-item p{
+        font-size: 20px;
     }
     .plans{min-width: unset; padding: 40px;} /* ajustamos el tamaño de los div de planes de pago para hacerlo responsivo*/
 }
