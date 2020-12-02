@@ -214,6 +214,7 @@ text-dark {
     color: #1a1a1a;
 }
 
+
 .carousel-indicators li{
     background-color:#1a1a1a ;
     width: 15px;
@@ -301,6 +302,8 @@ text-dark {
     border-radius: 50%;
     max-width: 50px;
     text-align: center;
+    height: 50px;
+    width: 50px;
 }
 
 
