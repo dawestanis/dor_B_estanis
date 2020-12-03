@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <!-- Required meta tags -->
@@ -64,7 +64,7 @@
     </nav>
 
     <!-- Sección de la cabecera-->
-    <section id="cabeceraServicios">
+    <section role="banner" id="cabeceraServicios">
         <div class="conainer">
             <div class="cabeceraServicios-text topmargin-lg">
                 <h1>SERVICIOS</h1>
@@ -74,7 +74,7 @@
     </section>
 
     <!-- Sección de Servicios -->
-    <section class="servicios">
+    <section role="main" class="servicios">
         <div class="container">
             <div class="content-center">
                 <h2>Precios <b>a tu medida</b></h2>
@@ -86,7 +86,7 @@
             </div>
         </div>
 
-        <div class="row justify-content-around">
+        <div role="main" class="row justify-content-around">
             <div class="col-md-6 col-lg-4">
                 <div class="servicios-container">
                     <div class="plans plan-light">
@@ -190,9 +190,7 @@
                     <div class="carousel-item active">
                         <div class="carousel-container">
                             <p>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                Rerum neque ea facilis voluptatem ipsam blanditiis, libero
-                                quaerat dolorem numquam repudiandae?
+                                Una experiencia muy intensa. Si quieres ponerte en la piel de una estrella, te recomiendo que lo pruebes.
                             </p>
                             <div class="rating">
                                 <ul class="list-inline">
@@ -269,7 +267,7 @@
                     <div class="carousel-item">
                         <div class="carousel-container">
                             <p>
-                                Ha sido increible. Casi he podido verme como una estrella de cine. 
+                                Ha sido increible. Casi he podido verme como una estrella de cine.
                             </p>
                             <div class="rating">
                                 <ul class="list-inline">
@@ -307,132 +305,107 @@
 
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <div class="control-button">
-                        <ion-icon name="chevron-back-outline"></ion-icon>
+                        <ion-icon id="chevron-left" name="chevron-back-outline"></ion-icon>
                     </div>
                 </a>
                 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
                     <div class="control-button">
-                        <ion-icon name="chevron-forward-outline"></ion-icon>
+                        <ion-icon id="chevron-right" name="chevron-forward-outline"></ion-icon>
                     </div>
                     <span class="sr-only">Next</span>
                 </a>
             </div>
+        </div>
     </section>
 
 
     <!-- Sección de footer -->
-    <section id="aboutus" class="bg-light-grey">
+    <section role="contentinfo" id="aboutus" class="bg-light-grey">
         <div class="container">
-            <div class="content-center">
-                <h2>Ahora manten la calma, <b>estás en buenas manos</b></h2>
-                <p>
-                    Ponemos a tu disposición el mejor equipo de seguimiento, trazadores
-                    y fotógrafos. Con el mejor material y equipamiento hasta la fecha.
-                    Usando las mejores tecnicas en fisonomía, rastreo y con el horario
-                    mas amplio.
-                </p>
+          <div class="content-center">
+            <h2>Ahora manten la calma, <b>estás en buenas manos</b></h2>
+            <p>Ponemos a tu disposición el mejor equipo de seguimiento, trazadores y fotógrafos. Con el mejor material y
+              equipamiento hasta la fecha. Usando las mejores tecnicas en fisonomía, rastreo y con el horario mas amplio.
+            </p>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-4">
+              
+              <div class="member-container">
+                <div class="member-details">
+                  <h5>Michelle B. Rowe</h5>
+                  <span>Directora de Operativos</span>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-group-intem"><a href="https://www.instagram.com/" aria-label="Enlace a Instagram"> <ion-icon
+                        name="logo-instagram"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a></li>
+                  </ul>
+                </div>
+                <img src="images/portrait1.jpeg" class="img-fluid" alt="miembro 1">
+              </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Michelle B. Rowe</h5>
-                            <span>Directora de Operativos</span>
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-group-intem">
-                                    <a href="https://www.instagram.com/?hl=es">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="https://twitter.com/">
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-youtube"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <img src="images/portrait1.jpeg" class="img-fluid" alt="miembro 1" />
-                    </div>
+    
+            <div class="col-md-4">
+              <div class="member-container">
+                <div class="member-details">
+                  <h5>Vera G. Higings</h5>
+                  <span>CEO</span>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-inline-intem"><a href="https://www.instagram.com/" aria-label="Ir a Instagram"> <ion-icon
+                        name="logo-instagram"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a></li>
+                  </ul>
                 </div>
-
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Vera G. Higings</h5>
-                            <span>CEO</span>
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-inline-intem">
-                                    <a href="https://www.instagram.com/?hl=es">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="https://twitter.com/">
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-youtube"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <img src="images/portrait2.jpeg" class="img-fluid" alt="miembro 2" />
-                    </div>
-                </div>
-
-
-                <div class="col-md-4">
-                    <div class="member-container">
-                        <div class="member-details">
-                            <h5>Robert T. Bridges</h5>
-                            <span>Lead Photographer</span>
-                            <ul class="list-group list-group-horizontal">
-                                <li class="list-inline-intem">
-                                    <a href="https://www.instagram.com/?hl=es">
-                                        <ion-icon name="logo-instagram"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="https://twitter.com/">
-                                        <ion-icon name="logo-twitter"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-youtube"></ion-icon>
-                                    </a>
-                                </li>
-                                <li class="list-group-intem">
-                                    <a href="">
-                                        <ion-icon name="logo-facebook"></ion-icon>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <img src="images/portrait3.jpeg" class="img-fluid" alt="miembro 3" />
-                    </div>
-                </div>
+                <img src="images/portrait2.jpeg" class="img-fluid" alt="miembro 2">
+              </div>
             </div>
+            <div class="col-md-4">
+              <div class="member-container">
+                <div class="member-details">
+                  <h5>Robert T. Bridges</h5>
+                  <span>Lead Photographer</span>
+                  <ul class="list-group list-group-horizontal">
+                    <li class="list-inline-intem"><a href="https://www.instagram.com/" aria-label="Ir a Instagram"> <ion-icon
+                        name="logo-instagram"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                      </a></li>
+                    <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                      </a></li>
+                  </ul>
+                </div>
+                <img src="images/portrait3.jpeg" class="img-fluid" alt="miembro 3">
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+    
+      </section>
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 

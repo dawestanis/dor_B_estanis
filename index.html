@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <!-- Required meta tags -->
@@ -24,10 +24,10 @@
 </head>
 
 <body>
-  <nav role="navigation" class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <!-- fixed-top nos permite dejar fija la barra de navegación aunque hagamos scroll-->
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/solvent.png" class="logo-brand" alt="logo" /></a>
+      <a class="navbar-brand" href="#"><img src="images/solvent.png" class="logo-brand" alt="logotipo de la web" /></a>
       <h3>AMPT</h3>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
             <a class="nav-link" href="#" id="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="servicios.html" id="servicios">Servicios</a>
+            <a class="nav-link" href="servicios.html" id="servicios" aria-label="Enlace a la seccion de Servicios">Servicios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html" id="blog">Blog</a>
+            <a class="nav-link" href="blog.html" id="blog" aria-label="Enlace a la sección del Blog">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#" id="about">Sobre Nosotros</a>
@@ -64,7 +64,7 @@
 
 
   <!-- Sección de la cabecera-->
-  <section id="hero">
+  <section role="banner" id="hero">
     <div class="conainer">
       <div class="content-center topmargin-lg">
         <h1>ACOSO MEDIÁTICO PARA TODOS</h1>
@@ -76,7 +76,7 @@
   </section>
 
   <!-- Sección de portfolio -->
-  <section id="portfolio">
+  <section role="main" id="portfolio">
     <div class="container-fluid">
       <div class="content-center">
         <h2>Trabajamos con un exitante metodo para construir una <b>realidad alterna.</b></h2>
@@ -96,7 +96,7 @@
               </a>
 
             </div>
-            <img src="images/portfolio1.jpg" class="img-fluid" alt="portfolio 1">
+            <img src="images/portfolio1.jpg" class="img-fluid" alt="foto de empleado 1">
           </div>
         </div>
         <div class="col-md-6">
@@ -110,7 +110,7 @@
               </a>
 
             </div>
-            <img src="images/portfolio9.jpg" class="img-fluid" alt="portfolio 2">
+            <img src="images/portfolio9.jpg" class="img-fluid" alt="foto de empleado 2">
           </div>
         </div>
         <div class="col-md-6">
@@ -124,7 +124,7 @@
               </a>
 
             </div>
-            <img src="images/portfolio3.jpg" class="img-fluid" alt="portfolio 3">
+            <img src="images/portfolio3.jpg" class="img-fluid" alt="foto de empleado 3">
           </div>
         </div>
         <div class="col-md-6">
@@ -150,7 +150,7 @@
     </div>
   </section>
 
-  <section id="aboutus" class="bg-light-grey">
+  <section role="contentinfo" id="aboutus" class="bg-light-grey">
     <div class="container">
       <div class="content-center">
         <h2>Ahora manten la calma, <b>estás en buenas manos</b></h2>
@@ -167,16 +167,16 @@
               <h5>Michelle B. Rowe</h5>
               <span>Directora de Operativos</span>
               <ul class="list-group list-group-horizontal">
-                <li class="list-group-intem"><a href="https://www.instagram.com/?hl=es"> <ion-icon
+                <li class="list-group-intem"><a href="https://www.instagram.com/" aria-label="Enlace a Instagram"> <ion-icon
                     name="logo-instagram"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="https://twitter.com/">
+                <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
                     <ion-icon name="logo-youtube"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a></li>
               </ul>
@@ -191,16 +191,16 @@
               <h5>Vera G. Higings</h5>
               <span>CEO</span>
               <ul class="list-group list-group-horizontal">
-                <li class="list-inline-intem"><a href="https://www.instagram.com/?hl=es"> <ion-icon
+                <li class="list-inline-intem"><a href="https://www.instagram.com/" aria-label="Ir a Instagram"> <ion-icon
                     name="logo-instagram"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="https://twitter.com/">
+                <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
                     <ion-icon name="logo-youtube"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a></li>
               </ul>
@@ -214,16 +214,16 @@
               <h5>Robert T. Bridges</h5>
               <span>Lead Photographer</span>
               <ul class="list-group list-group-horizontal">
-                <li class="list-inline-intem"><a href="https://www.instagram.com/?hl=es"> <ion-icon
+                <li class="list-inline-intem"><a href="https://www.instagram.com/" aria-label="Ir a Instagram"> <ion-icon
                     name="logo-instagram"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="https://twitter.com/">
+                <li class="list-group-intem"><a href="https://twitter.com/" aria-label="Enlace a Twitter">
                     <ion-icon name="logo-twitter"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://www.youtube.com/" aria-label="Enlace a Youtube">
                     <ion-icon name="logo-youtube"></ion-icon>
                   </a></li>
-                <li class="list-group-intem"><a href="">
+                <li class="list-group-intem"><a href="https://es-es.facebook.com/" aria-label="Enlace a Facebook">
                     <ion-icon name="logo-facebook"></ion-icon>
                   </a></li>
               </ul>
